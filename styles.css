@@ -1,0 +1,115 @@
+*{
+
+    box-sizing: border-box;
+
+}
+
+body{
+
+    background-image: url(images/wallpaper-hd-1920x1080-4k.jpg);
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+
+}
+
+.container{
+
+    margin: 4rem 0 2rem 3rem;
+    background-color: rgba(6, 255, 255, 0.795);
+    display: inline-block;
+    padding: 1rem;
+
+}
+
+.content h2{
+
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 0;
+
+
+}
+
+
+.top{
+
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    color: tomato;
+    
+
+}
+
+.logonform{
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.btn{
+
+    cursor: pointer;
+    border: none;
+    background-color: #4cB3c9;
+    padding: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font: bold;
+    transition: 1s ease-in-out;
+}
+
+.btn:hover{
+
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease-in-out;
+
+}
+
+.submit{
+
+    color: white;
+    background-color: black;
+    padding: 0.5rem;
+
+}
+
+.news{
+
+    text-align: center;
+    margin: 4rem;
+
+}
+
+.footer{
+
+  color: black;
+
+}
+
+.footer .news{
+
+    background-color: blanchedalmond;
+    padding: 1rem;
+    width: 294px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.footer .copy{
+
+    color: white;
+    background-color: tomato;
+    padding: 1rem;
+
+}
+
+
+
+
